@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical"
+
+    android:padding="16dp">
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:text="Sign Up"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/fName"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edt_style"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:inputType="textEmailAddress" />
+
+
+    <EditText
+        android:id="@+id/lName"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edt_style"
+        android:textColorHint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/registerEmailEditText"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edt_style"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/phoneEdt"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edt_style"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:inputType="text" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="5dp">
+
+        <EditText
+            android:id="@+id/registerPasswordEditText"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edt_style"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:inputType="textPassword"
+            android:paddingEnd="40dp" />
+
+        <ImageView
+            android:id="@+id/showPasswordIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="10dp"
+            android:padding="4dp"
+            android:src="@drawable/hidden"
+            app:tint="@color/white" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/passwordCriteriaTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"
+        android:text="Your password must be 8 alphabet characters, a special character, and a number."
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/btnGoToLogin"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="8dp"
+        android:text="Do you have an account? Login"
+        android:textColor="@color/btnColor" />
+</LinearLayout>
+

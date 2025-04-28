@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    app:cardCornerRadius="10dp"
+    android:layout_height="250dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Select Option"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+
+            android:id="@+id/btnCamera"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="92dp"
+            android:src="@drawable/camera"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+
+            android:id="@+id/btnGallery"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="72dp"
+            android:src="@drawable/gallery"
+            app:layout_constraintBottom_toBottomOf="@+id/btnCamera"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnCamera"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Camera"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/btnCamera"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/btnCamera"
+            app:layout_constraintTop_toBottomOf="@+id/btnCamera" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Gallery"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/btnGallery"
+            app:layout_constraintStart_toStartOf="@+id/btnGallery"
+            app:layout_constraintTop_toBottomOf="@+id/btnGallery" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

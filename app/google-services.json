@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "984416911109",
+    "project_id": "image-steganography-b9b66",
+    "storage_bucket": "image-steganography-b9b66.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984416911109:android:0f544bf73ceeb5bf71816c",
+        "android_client_info": {
+          "package_name": "com.example.imagesteganographyapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClKzyMEPbDoZWz56QVnhHYq9LL6HTVkzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
