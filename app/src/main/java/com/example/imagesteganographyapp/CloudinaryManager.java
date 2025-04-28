@@ -16,9 +16,9 @@ public class CloudinaryManager {
     public static Cloudinary getInstance() {
         if (cloudinaryInstance == null) {
             cloudinaryInstance = new Cloudinary(ObjectUtils.asMap(
-                    "cloud_name", "dihsjyfek",
-                    "api_key", "565633471856338",
-                    "api_secret", "CI7zYEh3BrcmUYdlRsLUeh1xJHU"
+                    "cloud_name", "cloud name",
+                    "api_key", "you api key",
+                    "api_secret", "secret key"
             ));
         }
         return cloudinaryInstance;
