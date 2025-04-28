@@ -18,12 +18,12 @@ Profile Storage: Store user profile data in Firebase Firestore for a personalize
 
 Tech Stack
 
-Language: Kotlin/Java
-Architecture: MVVM (Model-View-ViewModel)
+Language:Java
+
 Libraries:
 Retrofit: For fetching images from the internet.
 Firebase Authentication: For secure user login.
-Firebase Firestore: For storing user profile data.
+Firebase Real time database: For storing user profile data.
 TabLayout & ViewPager2: For fragment-based navigation.
 
 
